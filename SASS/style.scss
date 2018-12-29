@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+@import "mixins";
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    background: #ecf0f1;
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #2c3e50;
+    text-align: center;
+    @include mq {
+        padding: 0 10px;
+    }
+}
+.song-text {
+    color: #34495e;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    @include mq {
+        font-size: 13px;
+    }
+}
