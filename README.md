@@ -1,1 +1,1 @@
-# learning-git-2
+https://mariuszmycek.github.io/learning-git-2_/
