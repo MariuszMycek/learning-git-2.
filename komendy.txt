@@ -1,0 +1,3 @@
+node_modules/.bin/autoprefixer-cli -o CSS/style.prefixed.css CSS/style.css
+
+node_modules/.bin/nu-html-checker *.html
